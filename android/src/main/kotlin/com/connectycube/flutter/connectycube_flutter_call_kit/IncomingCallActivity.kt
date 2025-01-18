@@ -40,7 +40,7 @@ fun createStartIncomingScreenIntent(
     return intent
 }
 
-class IncomingCallActivity : Activity() {
+class IncomingCallActivity : FlutterActivity() {
     private lateinit var callStateReceiver: BroadcastReceiver
     private lateinit var localBroadcastManager: LocalBroadcastManager
 
